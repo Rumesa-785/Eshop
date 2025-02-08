@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .thank-you-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        background-color: #f5f5f5;
+      }
+
+      .thank-you-card {
+        padding: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid thank-you-page">
+      <div class="thank-you-card">
+        <h1 class="display-4">Thank You!</h1>
+        <p class="lead">
+          Thank you for shopping with us. Your order has been successfully
+          placed.
+        </p>
+        <p>Name: <span id="name"></span></p>
+        <p>Age: <span id="age"></span></p>
+        <p>Total Payment: <span id="totalPayment"></span></p>
+        <p>Contact: <span id="contact"></span></p>
+        <hr class="my-4" />
+        <p>
+          If you have any questions or need further assistance, please contact
+          our customer service team.
+        </p>
+        <a class="btn btn-primary btn-lg" href="/index.html" role="button"
+          >Continue Shopping</a
+        >
+       
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY31HBGONNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIds1K1eN7NGjIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
