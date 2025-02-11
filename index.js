@@ -16,4 +16,4 @@ function getUserDetails() {
     document.getElementById("contact").innerText = contactNumber;
 }
 
-getUserDetails();
+
